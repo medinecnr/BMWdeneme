@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    position: relative;
+    height: 80vh;
+}
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul{
+    list-style-type: none;
+}
+header ul li {
+    display: inline-block;
+}
+main ul li a{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;;
+    text-decoration: none;
+    color:white;
+}
+.hakkımızda li a{
+    padding: 50px 12px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.hakkımızda li a:hover{
+    border-bottom: 5px solid #1c69d4;
+    padding-bottom: 32px;
+
+}
+.icons a{
+    color: white;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.cizgi{
+    border: 1px solid white;
+    position: relative;
+}
+.essiz{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.card-yeni {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+.card-yeni h1{
+    font-size: 96px;
+    font-weight: 200;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.card-yeni h2{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.card-yeni h4{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.card-yeni button{
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #1c69d4;
+    color: white;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.card-yeni a button:hover{
+    background-color: #1750a0;
+}
+.rezerve button{
+    border: 1px solid black;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.rezerve button:hover{
+    outline: 1px solid black;
+}
+.rezerve h2{
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 4rem;
+    color: #262626;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.rezerve h3{
+    color: #666;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.rezerve h4{
+    color: #262626;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.ozel {
+    position: relative;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.66), transparent), url('./img/header-main-v2_3to1.webp') center/100%;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+    background-color: transparent;
+}
+.kirmizi-promosyon h1{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.kirmizi-promosyon button{
+    background: none;
+    border: 0px solid transparent;
+    outline: 1px solid white;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.kirmizi-promosyon button:hover{
+    outline: 2px solid white;
+}
+.kesfet h3{
+    color: #666;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.kesfet h2{
+    color: #262626;
+    font-weight: 300;
+    font-size: 48px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.kesfet p{
+    color: #262626;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.kesfet button{
+    border: 1px solid black;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.kesfet button:hover{
+    outline: 1px solid black;
+}
+.cizgi2{
+    border: 1px solid #e6e6e6;
+}
+.cizgi-alt p{
+    color: #262626;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.cizgi-alt a{
+    text-decoration: none;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.cizgi-alt span{
+    color: #563d3b;
+    font-weight: bold;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.model span:hover{
+    color: #1c69d4;
+}
+footer{
+    background-color: #f6f6f6;
+    width: 100%;
+    }
+footer p{
+    color: #4D4D4D;
+    font-size: 10px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: #262626;
+    display: block;
+    font-size: 14px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+footer a:hover{
+    color: black;
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    margin-bottom: 12px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.sosyal{
+    color: black;
+    font-size: 18px;
+}
+.footer-alt p{
+    font-size: 12px;
+    color: #262626;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.footer-alt ul li{
+    font-size: 14px;
+    color: #262626;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.footer-alt ul li:hover{
+    color: #1c69d4;
+}
+.footer-responsive button:focus{
+    display: none   !important;
+}
+@media screen and (max-width: 1023px) {
+main{
+    height: 100vh;
+}
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.siyahlik {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.9),transparent, transparent);
+}
+.card-yeni{
+    z-index: 2;
+} 
+.card-yeni h1{
+    font-size: 66px;
+    font-weight: 400;
+}
+.card-yeni h2{
+    font-size: 22px;
+    font-weight: 200;
+}
+.card-yeni h4{
+    font-size: 14px;
+    font-weight: 200;
+}   
+.essiz{
+    display: none;
+}
+.card-yeni {
+    top: 70%;
+    left: 50%;
+}
+.card-yeni h1,
+.card-yeni h2,
+.card-yeni h4 {
+    text-align: center;
+}
+.card-yeni button{
+    width: 100%;
+}
+.rezerve-ic{
+    display: block !important;
+}
+.ozel{
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.744), transparent, transparent), url('./img/header-main-v2_1to1.webp') center/cover no-repeat;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    width: 100% !important;
+    height: 100vh;
+}
+.kirmizi-promosyon,
+.kirmizi-promosyon-ic{
+    width: 100% !important;
+    text-align: center;
+    margin-top: 550px;
+}
+.kirmizi-promosyon h1{
+    font-size: 24px;
+}
+.kirmizi-promosyon-ic{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+}
+.kesfet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resim{
+    width: 100% !important;
+    margin: auto;
+}
+.yazı{
+    width: 100% !important;
+    margin: auto;
+    margin-top: 50px;
+}
+.yazı h2{
+    font-size: 24px;
+}
+.yazı p{
+    font-size: 14px;
+}
+.yazı button{
+    width: 50%;
+}
+}
+@media screen and (max-width: 768px) {
+main{
+    height: 200vh;
+}
+.card-yeni{
+    margin-top: 200px;
+}
+.card-yeni h1{
+    font-size: 68px;
+    font-weight: 400;
+}
+.card-yeni h2{
+    font-size: 24px;
+    font-weight: 200;
+}
+.card-yeni h4{
+    font-size: 18px;
+    font-weight: 200;
+}
+.card-yeni button{
+    width: 600px !important;
+}
+.rezerve-ic button{
+    width: 600px !important;
+}
+.rezerve h2{
+    font-size: 32px;
+}
+.rezerve h3{
+    font-size: 14px ;
+}
+.rezerve{
+    margin-top: 30px;
+}
+.container{
+    padding: 0px !important;
+}
+.kirmizi-promosyon{
+    width: 100% !important;
+    text-align: center;
+    margin-top: 550px;
+}
+.kirmizi-promosyon h1{
+    font-size: 24px;
+    width: 100%;
+}
+.kirmizi-promosyon button{
+    width: 100%;
+}
+.footer-ic{
+    padding-top: 50px !important; 
+}
+.fotter-alt{
+    display: block !important;
+    text-align: center;
+    padding: 30px 0px !important;
+}
+
+
+
+}
